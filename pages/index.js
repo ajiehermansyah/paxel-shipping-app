@@ -1,7 +1,18 @@
-const Index = () => (
-  <div>
-    <p>Sample app using React and Next.js</p>
-  </div>
-);
+import React from "react";
+import { Page, TextStyle } from "@shopify/polaris";
 
-export default Index;
+export default class Login extends React.Component {
+  render() {
+    return (
+      <Page
+        primaryAction={{
+          content: "Select products"
+        }}
+      >
+        <TextStyle variation="positive">
+          Sample app using React and Next.js
+        </TextStyle>
+      </Page>
+    );
+  }
+}

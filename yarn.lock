@@ -716,7 +716,7 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@shopify/app-bridge@^1.1.2":
+"@shopify/app-bridge@^1.0.3":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@shopify/app-bridge/-/app-bridge-1.2.0.tgz#65281775f00663d9a535ea39cff34ebc04e5fa9a"
   integrity sha512-+cyqv/gxGh4llbc84bBb2048Sg7g8ZQeJRNJvk7X3YDGgNyqLXV4MCVJYVeQr0OVGJbyoaPztK+ElnbbioemJA==
@@ -755,13 +755,13 @@
   resolved "https://registry.yarnpkg.com/@shopify/polaris-tokens/-/polaris-tokens-2.4.0.tgz#f80e52e52e4b3d8dfd71575c8c70da3d5b98647d"
   integrity sha512-YmV9Vy4dtJktq7sGyKqSqDBgdBtC1nhdb53xqDNZMzX7OmbMNEesXrC45r+p0Nucuet3pHVt5K5/6oYLzEfgRw==
 
-"@shopify/polaris@3.12.0":
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/@shopify/polaris/-/polaris-3.12.0.tgz#900389601f8c48bda0e916fca6b323e125fccbf4"
-  integrity sha512-X8HFX3p8BAQLzTa8+1OhJ6PrzCtxrAcxvzsv+AfbLTBjnY3RhAJNjCWY62d/BUng1H7CwGwZ5GIft2KtiHbSCw==
+"@shopify/polaris@3.10.0":
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/@shopify/polaris/-/polaris-3.10.0.tgz#7579fb4386d2490b27e4136ad054b2a980c19c66"
+  integrity sha512-O6pHiFvuZZv5+UzI20qDeD0lUYFoCVyv9ZI+Di36VnpFcG6aBZuzbrCdxInAznHaZoVk+IlUUY2De/Yc7QNw5g==
   dependencies:
     "@babel/runtime" "^7.1.6"
-    "@shopify/app-bridge" "^1.1.2"
+    "@shopify/app-bridge" "^1.0.3"
     "@shopify/images" "^1.1.0"
     "@shopify/javascript-utilities" "^2.2.1"
     "@shopify/polaris-icons" "^3.0.0"
@@ -2924,6 +2924,11 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+
+js-cookie@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.0.tgz#1b2c279a6eece380a12168b92485265b35b1effb"
+  integrity sha1-Gywnmm7s44ChIWi5JIUmWzWx7/s=
 
 js-levenshtein@^1.1.3:
   version "1.1.6"
