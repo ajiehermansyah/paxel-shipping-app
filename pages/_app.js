@@ -7,11 +7,16 @@ import { AppProvider } from "@shopify/polaris";
 import "@shopify/polaris/styles.css";
 
 export default class PaxelShippingApp extends App {
-  state = {
-    shopOrigin: Cookies.get("shopOrigin")
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      shopOrigin: Cookies.get("shopOrigin")
+    };
+  }
+
   render() {
     const { Component, pageProps } = this.props;
+
     return (
       <React.Fragment>
         <Head>
@@ -20,7 +25,7 @@ export default class PaxelShippingApp extends App {
         </Head>
         <AppProvider
           shopOrigin={this.state.shopOrigin}
-          apiKey={process.env.SHOPIFY_API_KEY}
+          apiKey={API_KEY}
           forceRedirect
         >
           <Component {...pageProps} />
