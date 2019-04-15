@@ -11,7 +11,7 @@ import {
   TextStyle
 } from "@shopify/polaris";
 
-export default class Order extends React.Component {
+export default class Orders extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
